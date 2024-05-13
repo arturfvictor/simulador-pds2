@@ -1,8 +1,8 @@
 #include <iostream>
 #include <string>
-#include "../acessorios-hpp/Rosa.hpp"
-#include "../acessorios-hpp/Colher.hpp"
-#include "../acessorios-hpp/Escudo.hpp"
+#include "../acessorios-hpp/ataque/Rosa.hpp"
+#include "../acessorios-hpp/ataque/Colher.hpp"
+#include "../acessorios-hpp/defesa/Escudo.hpp"
 #include "../personagens-hpp/Chaves.hpp"
 #include "../core-simulador-hpp/Simulador.hpp"
 

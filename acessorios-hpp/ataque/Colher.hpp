@@ -1,7 +1,7 @@
 #ifndef COLHER
 #define COLHER
 
-#include "../core-simulador-hpp/ArmaAtaque.hpp"
+#include "../../core-simulador-hpp/ArmaAtaque.hpp"
 class Colher : public ArmaAtaque
 {
     public:

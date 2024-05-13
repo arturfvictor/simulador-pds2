@@ -1,7 +1,7 @@
 #ifndef ROSA
 #define ROSA
 
-#include "../core-simulador-hpp/ArmaAtaque.hpp"
+#include "../../core-simulador-hpp/ArmaAtaque.hpp"
 class Rosa : public ArmaAtaque
 {
     public:
