@@ -1,11 +1,11 @@
-#ifndef ROSA
-#define ROSA
+#ifndef CHAVEDERODA
+#define CHAVEDERODA
 
 #include "../../core-simulador-hpp/ArmaAtaque.hpp"
-class Rosa : public ArmaAtaque
+class ChaveDeRoda : public ArmaAtaque
 {
     public:
-        Rosa(string descricaoArma, int minForca, int maxForca);
+        ChaveDeRoda(string descricaoArma, int minForca, int maxForca);
         int gerarForcaAtaque() override;
         string gerarRuidoAtaque() override;
 };

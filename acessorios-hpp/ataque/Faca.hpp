@@ -1,11 +1,11 @@
-#ifndef COLHER
-#define COLHER
+#ifndef FACA
+#define FACA
 
 #include "../../core-simulador-hpp/ArmaAtaque.hpp"
-class Colher : public ArmaAtaque
+class Faca : public ArmaAtaque
 {
     public:
-        Colher(string descricaoArma, int minForca, int maxForca);
+        Faca(string descricaoArma, int minForca, int maxForca);
         int gerarForcaAtaque() override;
         string gerarRuidoAtaque() override;
 };
