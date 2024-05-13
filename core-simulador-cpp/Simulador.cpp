@@ -75,15 +75,20 @@ Personagem* Simulador::proximoPersonagem(vector<Personagem*> equipe)
         return nullptr;
     }
 
+    vector<Personagem*> vivos;
+
     int contador = 0;
     while (contador < tamanho)
     {
         if (equipe[contador]->getVida()>0)
         {
-            return equipe[contador];
+            vivos.push_back(equipe[contador]);
         }
         contador++;
+    }
 
+    if (vivos.size() > 0) {
+        return vivos[rand() % (vivos.size())];
     }
 
     return nullptr;
