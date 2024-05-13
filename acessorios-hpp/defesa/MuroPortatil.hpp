@@ -1,12 +1,12 @@
-#ifndef ESCUDO
-#define ESCUDO
+#ifndef MUROPORTATIL
+#define MUROPORTATIL
 
 #include "../../core-simulador-hpp/ArmaAtaque.hpp"
 #include "../../core-simulador-hpp/ArmaDefesa.hpp"
-class Escudo : public ArmaDefesa
+class MuroPortatil : public ArmaDefesa
 {
     public:
-        Escudo(string descricaoArma, int resistencia);
+        MuroPortatil(string descricaoArma, int resistencia);
         string getDescricaoArma() override;
         int getResistencia() override;
 };

@@ -7,12 +7,12 @@ Piccolo::Piccolo(int id, string nome, int vida, ArmaAtaque* armaAtaque, ArmaDefe
 
 int Piccolo::gerarAtaque()
 {
-    return armaAtaque->gerarForcaAtaque() * 1.2;
+    return armaAtaque->gerarForcaAtaque() * 1.2 + 4;
 }
 
 int Piccolo::criarDefesa()
 {
-    return armaDefesa->getResistencia() * 1.2;
+    return armaDefesa->getResistencia() * 1.2 + 3;
 }
 
 string Piccolo::pegarDescricao() 

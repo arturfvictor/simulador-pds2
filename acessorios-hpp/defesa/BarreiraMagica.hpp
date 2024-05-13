@@ -1,12 +1,12 @@
-#ifndef ESCUDO
-#define ESCUDO
+#ifndef BARREIRAMAGICA
+#define BARREIRAMAGICA
 
 #include "../../core-simulador-hpp/ArmaAtaque.hpp"
 #include "../../core-simulador-hpp/ArmaDefesa.hpp"
-class Escudo : public ArmaDefesa
+class BarreiraMagica : public ArmaDefesa
 {
     public:
-        Escudo(string descricaoArma, int resistencia);
+        BarreiraMagica(string descricaoArma, int resistencia);
         string getDescricaoArma() override;
         int getResistencia() override;
 };

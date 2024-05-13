@@ -1,12 +1,12 @@
-#ifndef ESCUDO
-#define ESCUDO
+#ifndef CAMPODEFORCA
+#define CAMPODEFORCA
 
 #include "../../core-simulador-hpp/ArmaAtaque.hpp"
 #include "../../core-simulador-hpp/ArmaDefesa.hpp"
-class Escudo : public ArmaDefesa
+class CampoDeForca : public ArmaDefesa
 {
     public:
-        Escudo(string descricaoArma, int resistencia);
+        CampoDeForca(string descricaoArma, int resistencia);
         string getDescricaoArma() override;
         int getResistencia() override;
 };

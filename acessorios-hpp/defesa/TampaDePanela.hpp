@@ -1,12 +1,12 @@
-#ifndef ESCUDO
-#define ESCUDO
+#ifndef TAMPADEPANELA
+#define TAMPADEPANELA
 
 #include "../../core-simulador-hpp/ArmaAtaque.hpp"
 #include "../../core-simulador-hpp/ArmaDefesa.hpp"
-class Escudo : public ArmaDefesa
+class TampaDePanela : public ArmaDefesa
 {
     public:
-        Escudo(string descricaoArma, int resistencia);
+        TampaDePanela(string descricaoArma, int resistencia);
         string getDescricaoArma() override;
         int getResistencia() override;
 };
